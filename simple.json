@@ -1,0 +1,32 @@
+{
+    "datapoints": [
+        {
+            "date": "Jan-2014",
+            "value": "10"
+        },
+        {
+            "date": "Feb-2014",
+            "value": "9"
+        },
+        {
+            "date": "Mar-2014",
+            "value": "11"
+        },
+        {
+            "date": "Apr-2014",
+            "value": "5"
+        },
+        {
+            "date": "May-2014",
+            "value": "5"
+        },
+        {
+            "date": "Jun-2014",
+            "value": "5"
+        },
+        {
+            "date": "Jul-2014",
+            "value": "3"
+        }
+    ]
+}

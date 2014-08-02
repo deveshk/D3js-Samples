@@ -37,8 +37,15 @@
 
 </style>
 <body>
-    
+
     <div id="chart1"></div>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="simple.js"></script>
+    <script src="js/lib/d3.v3.min.js"></script>
+    <script src="js/simple.js"></script>
+    <script>
+        var margin = {t: 30, r: 20, b: 20, l: 70};
+        simple.getChart("chart1",margin, window.innerWidth, window.innerHeight);
+        window.onresize = function() {
+            simple.getChart("chart1",margin, window.innerWidth, window.innerHeight);
+        };
+    </script>
 </body>

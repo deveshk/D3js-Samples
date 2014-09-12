@@ -1,48 +1,28 @@
-.bar {
-	display: inline-block;
-	width: 10px;
-	height: 75px;	/* Gets overriden by D3-assigned height below */
-	margin-right: 2px;
-	background-color: teal;
-}
-/*******************/
-/*** Radial Tree ***/
-/*******************/
 .link {
   fill: none;
   stroke: #ccc;
   stroke-width: 1.5px;
 }
-.node {
-  font: 10px sans-serif;
+.singlebar {
+    display: inline-block;
+    width: 50px;
+    height: 75px;
+    margin-right: 2px;
+    background-color: teal;
 }
-
-.node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 1px;
+.bar {
+    display: inline-block;
+    width: 10px;
+    height: 75px;
+    margin-right: 2px;
+    background-color: teal;
 }
-
-/*******************/
-/* Partition chart */
-/*******************/
-#chart {
-  position: relative;
-}
-
-#chart path {
-  stroke: #fff;
-}
-.main text {
-    font: 10px sans-serif;  
-}
-
-.axis line, .axis path {
-    shape-rendering: crispEdges;
-    stroke: black;
+.line,.line path{
     fill: none;
+    stroke: red;
+    shape-rendering: crispEdges;
+    stroke-width: 2px;
 }
-
 circle {
     fill: steelblue;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    body {
+        font: 10px arial;
+        /*background: #7C9199;*/
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .level,.level path{
+        fill: none;
+        stroke: red;
+        shape-rendering: crispEdges;
+        stroke-width: 2px;
+    }
+    .lineArea,.lineArea path{
+        fill: none;
+        stroke: green;
+        shape-rendering: crispEdges;
+        stroke-width: 2px;
+    }
+    .area{
+        fill: yellow;
+        shape-rendering: crispEdges;
+    }
+    
+    .HBG-Nodes{
+        fill: blue;
+        stroke: #red;
+        shape-rendering: crispEdges;
+    }
+
+</style>
+<body>
+
+    <div id="chart1"></div>
+    Level Bar <select id="levelSelector">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+    </select> Try Changing
+    <script src="js/lib/d3.v3.min.js"></script>
+    <script src="js/AreaChartwithLevel.js"></script>
+    <script>
+        chart.init(400,600);
+    </script>
+</body>
